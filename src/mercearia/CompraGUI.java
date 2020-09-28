@@ -27,7 +27,7 @@ public class CompraGUI extends javax.swing.JPanel {
     private void meuInitComponents(){
         this.carrinhoComprasTab = new ModeloTabelaCompra(this);
         
-        //criar a conexao dos dados do abj da classecom a tabela GUI
+        //criar a conexao dos dados do obj da classecom a tabela GUI
         tabelaCarrinho.setModel(carrinhoComprasTab);
     }
     /**

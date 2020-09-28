@@ -81,7 +81,7 @@ public class FakeBancoDados {
     }
     
     public static Produto consultaProdutoCod(int cod){
-        //se o arquivo produto ainda nao foi carregaod, precisamos carrega-lo
+        //se o arquivo produto ainda nao foi carregado, precisamos carrega-lo
         if(produtos == null){
             cargaArquivo();
         }
